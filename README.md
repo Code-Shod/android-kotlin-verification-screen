@@ -7,7 +7,7 @@ It is an android verification screen code. Mostly used in the following categori
 * To change password using the code verification
 
 
-<img align="left" src="https://github.com/Code-Shod/android-kotlin-verification-screen/blob/master/screen-shot.jpg" width="480" height="360"/>
+<img align="center" src="https://github.com/Code-Shod/android-kotlin-verification-screen/blob/master/screen-shot.jpg"/>
 
 
 ## 📄 License
