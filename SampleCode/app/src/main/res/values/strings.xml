@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VerificationScreen</string>
+
+    <string name="string_dash">-</string>
+    <string name="string_company_logo">Company\'s Logo</string>
+    <string name="string_successful">Verification code matched Successfully</string>
+    <string name="string_unsuccessful">Verification code is incorrect</string>
+</resources>

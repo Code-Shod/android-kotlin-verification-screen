@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:weightSum="5">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/string_company_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <EditText
+            android:id="@+id/codeOne"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_box"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:hint="@string/string_dash"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/codeTwo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_box"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="@string/string_dash"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/codeThree"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_box"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="@string/string_dash"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/codeFour"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_box"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="@string/string_dash"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/codeFive"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_box"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="@string/string_dash"
+            android:inputType="number"
+            android:maxLength="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
